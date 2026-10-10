@@ -1,0 +1,54 @@
+notebook,kaggle_run,model,seed,device,train_minutes,val_acc
+week5_solution_v3,notebook5356acad35,resnet152 view=0,42,cuda:0,8.4,0.9585
+week5_solution_v3,notebook5356acad35,resnet152 view=4,1,cuda:1,8.4,0.9685
+week5_solution_v3,notebook5356acad35,resnet152 view=1,2,cuda:0,8.4,0.9700
+week5_solution_v3,notebook5356acad35,resnet152 view=5,3,cuda:1,8.4,0.9542
+week5_solution_v3,notebook5356acad35,resnet101 view=2,42,cuda:0,6.0,0.9671
+week5_solution_v3,notebook5356acad35,resnet101 view=6,1,cuda:1,6.1,0.9599
+week5_solution_v3,notebook5356acad35,ENSEMBLE (elapsed 22.95 min; test prediction 87 s),,cuda:0 + cuda:1,45.7,0.9757
+week5_solution_v5a,notebook90d569af96,resnext101_64x4d view=0,42,cuda:0,11.7,0.9499
+week5_solution_v5a,notebook90d569af96,wide_resnet101_2 view=4,42,cuda:1,11.7,0.9642
+week5_solution_v5a,notebook90d569af96,resnet152 view=1,2,cuda:0,8.3,0.9700
+week5_solution_v5a,notebook90d569af96,resnet152 view=5,3,cuda:1,8.4,0.9542
+week5_solution_v5a,notebook90d569af96,resnet101 view=2,42,cuda:0,6.0,0.9671
+week5_solution_v5a,notebook90d569af96,resnet101 view=6,1,cuda:1,6.0,0.9599
+week5_solution_v5a,notebook90d569af96,ENSEMBLE (elapsed 26.21 min; test prediction 95 s),,cuda:0 + cuda:1,52.2,0.9771
+week5_solution_v5c,notebook3eaf395133,resnext101_64x4d view=0,42,cuda:0,12.8,0.9499
+week5_solution_v5c,notebook3eaf395133,wide_resnet101_2 view=4,42,cuda:1,11.7,0.9642
+week5_solution_v5c,notebook3eaf395133,resnext101_64x4d view=1,1,cuda:0,12.9,0.9614
+week5_solution_v5c,notebook3eaf395133,resnext101_32x8d view=5,42,cuda:1,12.2,0.9700
+week5_solution_v5c,notebook3eaf395133,resnet101 view=2,42,cuda:0,6.5,0.9671
+week5_solution_v5c,notebook3eaf395133,resnet101 view=6,1,cuda:1,6.2,0.9599
+week5_solution_v5c,notebook3eaf395133,ENSEMBLE (elapsed 32.17 min; test prediction 121 s),,cuda:0 + cuda:1,62.3,0.9728
+week5_solution_v4a,notebook43b4341831,resnet152 288px view=0,42,cuda:0,12.2,0.9671
+week5_solution_v4a,notebook43b4341831,resnet152 288px view=4,1,cuda:1,10.9,0.9585
+week5_solution_v4a,notebook43b4341831,resnet152 view=1,2,cuda:0,9.3,0.9700
+week5_solution_v4a,notebook43b4341831,resnet152 view=5,3,cuda:1,8.3,0.9542
+week5_solution_v4a,notebook43b4341831,resnet101 view=2,42,cuda:0,6.7,0.9671
+week5_solution_v4a,notebook43b4341831,resnet101 view=6,1,cuda:1,5.9,0.9599
+week5_solution_v4a,notebook43b4341831,ENSEMBLE (elapsed 28.11 min; test prediction 116 s),,cuda:0 + cuda:1,53.3,0.9728
+week5_solution_v6a,notebooke6888d03d5,resnext101_64x4d view=0,42,cuda:0,12.9,0.9499
+week5_solution_v6a,notebooke6888d03d5,wide_resnet101_2 view=4,42,cuda:1,11.8,0.9642
+week5_solution_v6a,notebooke6888d03d5,resnet152 288px view=1,42,cuda:0,11.8,0.9614
+week5_solution_v6a,notebooke6888d03d5,resnet152 288px view=5,1,cuda:1,11.1,0.9614
+week5_solution_v6a,notebooke6888d03d5,ENSEMBLE (elapsed 24.64 min; test prediction 97 s),,cuda:0 + cuda:1,47.6,0.9728
+week5_solution_v6b,notebook480a5e9c1c,wide_resnet101_2 view=4,42,cuda:0,12.0,0.9642
+week5_solution_v6b,notebook480a5e9c1c,resnext101_64x4d view=0,42,cuda:1,13.1,0.9499
+week5_solution_v6b,notebook480a5e9c1c,resnet152 view=5,3,cuda:0,8.7,0.9542
+week5_solution_v6b,notebook480a5e9c1c,resnet152 288px view=1,42,cuda:1,12.1,0.9614
+week5_solution_v6b,notebook480a5e9c1c,resnet101 view=6,1,cuda:0,6.2,0.9599
+week5_solution_v6b,notebook480a5e9c1c,ENSEMBLE (elapsed 26.90 min; test prediction 99 s),,cuda:0 + cuda:1,52.1,0.9742
+week5_solution_v6c,notebook7fa938076e,resnext101_64x4d view=0,42,cuda:0,11.6,0.9499
+week5_solution_v6c,notebook7fa938076e,wide_resnet101_2 view=4,42,cuda:1,11.7,0.9642
+week5_solution_v6c,notebook7fa938076e,resnet152 288px view=1,42,cuda:0,10.8,0.9614
+week5_solution_v6c,notebook7fa938076e,resnet152 288px view=5,1,cuda:1,11.1,0.9614
+week5_solution_v6c,notebook7fa938076e,resnet101 view=2,42,cuda:0,6.0,0.9671
+week5_solution_v6c,notebook7fa938076e,resnet101 view=6,1,cuda:1,6.1,0.9599
+week5_solution_v6c,notebook7fa938076e,ENSEMBLE (elapsed 28.88 min),,cuda:0 + cuda:1,57.3,0.9742
+week5_solution_v8b,notebookf56bb92f17,resnext101_64x4d 288px view=0,42,cuda:0,15.9,0.9528
+week5_solution_v8b,notebookf56bb92f17,wide_resnet101_2 288px view=4,42,cuda:1,19.3,0.9642
+week5_solution_v8b,notebookf56bb92f17,resnet152 288px view=1,42,cuda:0,10.9,0.9614
+week5_solution_v8b,notebookf56bb92f17,resnet152 288px view=5,1,cuda:1,14.2,0.9614
+week5_solution_v8b,notebookf56bb92f17,resnet50 view=2,42,cuda:0,3.7,0.9628
+week5_solution_v8b,notebookf56bb92f17,resnet50 view=6,1,cuda:1,4.4,0.9628
+week5_solution_v8b,notebookf56bb92f17,ENSEMBLE (elapsed 37.83 min; test prediction 152 s),,cuda:0 + cuda:1,68.3,0.9714

@@ -1,0 +1,13 @@
+# В папке много рабочих материалов, данные соревнования и таблицы с предсказаниями для test.
+# Данные и предсказания по правилам курса не публикуются, поэтому в репозиторий попадает
+# только то, что перечислено ниже, - на случай, если он станет публичным.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/geo_satellites_clean.ipynb
+!/results/
+/results/*
+!/results/experiments.csv
+!/results/validation_runs.csv
+!/results/single_model_search.csv

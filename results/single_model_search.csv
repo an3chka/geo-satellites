@@ -1,0 +1,12 @@
+stage,changes,arch,img_size,val_acc,val_acc_tta,train_minutes,device,seed
+1,"arch=resnet18, img_size=128",resnet18,128,0.9299,0.9399,1.8,cuda (Colab T4),42
+1,"arch=resnet18, img_size=160",resnet18,160,0.9528,0.9514,2.3,cuda (Colab T4),42
+1,"arch=resnet18, img_size=224",resnet18,224,0.9528,0.9642,3.8,cuda (Colab T4),42
+1,"arch=resnet34, img_size=224",resnet34,224,0.9442,0.9485,4.1,cuda (Colab T4),42
+1,"arch=resnet50, img_size=224",resnet50,224,0.9528,0.9628,4.4,cuda (Colab T4),42
+1,"arch=resnet50, img_size=224, weights=IMAGENET1K_V2",resnet50,224,0.9614,0.9614,4.3,cuda (Colab T4),42
+2,augmix=True,resnet18,224,0.9528,0.9499,10.5,cuda (Colab T4),42
+2,unfreeze=['all'],resnet18,224,0.9571,0.9628,3.9,cuda (Colab T4),42
+2,epochs=15,resnet18,224,0.9557,0.9599,5.6,cuda (Colab T4),42
+2,lr=0.001,resnet18,224,0.9499,0.9614,3.8,cuda (Colab T4),42
+2,"p_blur=0, p_lowres=0, p_gray=0, p_dark=0, p_noise=0",resnet18,224,0.9170,0.9256,2.3,cuda (Colab T4),42

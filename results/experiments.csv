@@ -1,0 +1,18 @@
+experiment,models,img_size,seeds,val_acc,train_minutes,test_predict_s,public_score,device,note
+baseline_mlp,MLP,,42,0.358,,,,CPU,"baseline lab, trained on train"
+baseline_cnn,"CNN (own, simple)",,42,0.551,,,,CPU,baseline lab
+baseline_cnn_bn_dropout,"CNN (own, BatchNorm + Dropout)",,42,0.708,,,,CPU,baseline lab
+baseline_resnet18,"ResNet-18 pretrained, layer3-4 fine-tuned, artifact augmentations",,42,0.913,,,,CPU,baseline lab
+single_resnet152_256,"ResNet-152, 3 test views",256,,,10.4,,0.96058,Kaggle T4,single model
+single_resnet152_256_lr2e-4,"ResNet-152, lr 2e-4, 3 test views",256,,,10.4,,0.95731,Kaggle T4,smaller learning rate: worse
+week5_solution_v2,2x ResNet-18 + 2x ResNet-50,224,42;1;42;1,0.9628,15.6,,0.95542,Colab T4,first ensemble
+week5_solution_v3,4x ResNet-152 + 2x ResNet-101,256,42;1;2;3;42;1,0.9757,27.62,90,0.96592,Kaggle T4 x2,"six models, one test view each"
+v3_plus_2_inception,week5_solution_v3 + 2x Inception v3,256/299,,,,,0.96454,Kaggle T4 x2,Inception v3 in the ensemble: worse
+week5_solution_v4a,2x ResNet-152 (288 px) + 2x ResNet-152 + 2x ResNet-101 (256 px),288/256,42;1;2;3;42;1,0.9728,30.13,101,0.96643,Kaggle T4 x2,288 px for two ResNet-152
+week5_solution_v5a,ResNeXt-101 64x4d + Wide ResNet-101-2 + 2x ResNet-152 + 2x ResNet-101,256,42;42;2;3;42;1,0.9771,32.89,107,0.96695,Kaggle T4 x2,ResNeXt and Wide ResNet added
+week5_solution_v5c,ResNeXt-101 64x4d + Wide ResNet-101-2 + ResNeXt-101 64x4d + ResNeXt-101 32x8d + 2x ResNet-101,256,42;42;1;42;42;1,0.9728,37.36,121,,Kaggle T4 x2,not submitted
+week5_solution_v6a,ResNeXt-101 64x4d + Wide ResNet-101-2 (256 px) + 2x ResNet-152 (288 px),256/288,42;42;42;1,0.9728,30.99,111,,Kaggle T4 x2,not submitted
+week5_solution_v6b,Wide ResNet-101-2 + ResNeXt-101 64x4d + ResNet-152 + ResNet-101 (256 px) + ResNet-152 (288 px),256/288,42;42;3;42;1,0.9742,30.9,104,,Kaggle T4 x2,not submitted
+week5_solution_v6c,ResNeXt-101 64x4d + Wide ResNet-101-2 (256 px) + 2x ResNet-152 (288 px) + 2x ResNet-101 (256 px),256/288,42;42;42;1;42;1,0.9742,38.02,127,0.96729,Kaggle T4 x2,FINAL
+week5_solution_v7a,ResNeXt-101 64x4d + Wide ResNet-101-2 (256 px) + 2x ResNet-152 (288 px) + 2x ResNet-152 (256 px),256/288,42;42;42;1;2;3,,39.63,132,0.96712,Kaggle T4 x2,ResNet-152 instead of ResNet-101: no gain
+week5_solution_v8b,ResNeXt-101 64x4d + Wide ResNet-101-2 + 2x ResNet-152 (288 px) + 2x ResNet-50 (256 px),288/256,42;42;42;1;42;1,0.9714,39.34,134,0.96385,Kaggle T4 x2,ResNeXt / Wide ResNet at 288 px: worse
