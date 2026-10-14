@@ -6,6 +6,8 @@
 !/README.md
 !/requirements.txt
 !/geo_satellites_clean.ipynb
+!/geo_satellites_presentation.pdf
+!/geo_satellites_presentation.pptx
 !/results/
 /results/*
 !/results/experiments.csv

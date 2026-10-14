@@ -83,6 +83,7 @@ ensemble (0.9671 vs 0.9673), and moving ResNeXt / Wide ResNet to 288 px (0.9639)
 | `results/experiments.csv` | Experiment table: models, image size, seeds, validation accuracy, runtime, public score |
 | `results/validation_runs.csv` | Validation accuracy and training time of every ensemble member |
 | `results/single_model_search.csv` | Single-model search: architecture, image size, augmentations |
+| `geo_satellites_presentation.pdf` / `.pptx` | Slides for the project defense (in Russian; the PowerPoint file has speaker notes) |
 | `requirements.txt` | Library versions of the Kaggle run |
 
 ## How to run
